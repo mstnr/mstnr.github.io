@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+{% for year_group in posts_by_year %}
+<section class="year-group">
+  <div class="year-label">{{ year_group.name }}</div>
+  <ul class="post-list">
+    {% for post in year_group.items %}
+    <li class="post-item">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="post-date">{{ post.date | date: "%d/%m" }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
