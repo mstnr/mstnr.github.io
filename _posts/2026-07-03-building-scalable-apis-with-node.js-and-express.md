@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building Scalable APIs with Node.js and Express"
-date: 2026-07-03
+date: 2024-07-03
 slug: building-scalable-apis-with-node.js-and-express
 read_time: 5
 image: "[(https://images.unsplash.com/photo-1549693578-d683be217e58?q=80&w=1177&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]"
